@@ -1,0 +1,5 @@
+*.dSYM
+.vscode
+push_swap
+obj
+.DS_Store

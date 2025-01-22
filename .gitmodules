@@ -1,0 +1,6 @@
+[submodule "lib/mem"]
+	path = lib/mem
+	url = https://github.com/Weldd2/42_libamura_mem
+[submodule "lib/str"]
+	path = lib/str
+	url = https://github.com/Weldd2/42_libamura_str
