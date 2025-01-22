@@ -145,7 +145,7 @@ fclean: clean
 re: fclean all
 
 # -----------------------------------------------------------------------------
-# Installation MLX42 (submodule) - si nécessaire
+# Installation (submodule) - si nécessaire
 # -----------------------------------------------------------------------------
 install:
 	git submodule init
@@ -168,4 +168,4 @@ debug: re
 # -----------------------------------------------------------------------------
 # Déclaration des règles phony
 # -----------------------------------------------------------------------------
-.PHONY: all clean fclean re install mlx_install mlx_build debug valgrind
+.PHONY: all clean fclean re install debug valgrind
